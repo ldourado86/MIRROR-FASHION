@@ -1,0 +1,31 @@
+<html>
+    <body>
+        <button id="mostra-alerta">
+           Mostra alert
+        </button>
+       
+       <script>
+    var botao = document.querySelector("#mostra-alerta");
+    
+    function mostraAlerta(){
+        alert("leandro");
+    }
+
+           
+    botao.onclick = mostraAlerta;
+
+
+        </script>
+    </body>
+</html>
+
+<script>
+var minhasDivs = document.querySelectorAll;
+var vetor = [3];
+
+for(i = 0; i<3; i++){
+    vetor[i].addEventListener('click', function(){alert("Ola mundo!")});// para add um evento ao elemento. podemos add mais de um evento em um elemento.
+    vetor[i].addEventListener('click', function(){alert("olá pessoal!")});// adicionando outra funçao ao elemento.
+}
+// mas podemos fazer isso mais facil com o JQUERY.
+</script>
